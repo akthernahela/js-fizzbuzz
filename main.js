@@ -10,8 +10,8 @@ Come faccio a sapere se un numero è divisibile per?
 Abbiamo visto qualcosa di particolare che possiamo usare?
 
 Consigli del giorno:
-scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
-proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma 
+- scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
+- proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma 
 così come lo faremmo "a mano" 
 */
 
@@ -20,9 +20,9 @@ for (let i = 1; i < 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log('FizzBuzz');
     } else if (i % 5 === 0) {
-        console.log('Fizz');
-    } else if (i % 3 === 0) {
         console.log('Buzz');
+    } else if (i % 3 === 0) {
+        console.log('Fizz');
     } else {
         console.log(i);
     }
