@@ -16,16 +16,20 @@ così come lo faremmo "a mano"
 */
 
 //Applico il ciclo for 
-for (let i = 1; i < 100; i++) {
-
+//Ciclo che parte da 1 e arriva fino 100
+for (let i = 1; i <= 100; i++) {
+//Uso <= perchè sennò mi prende solo fino a 99
     if (i % 3 === 0 && i % 5 === 0) {
         //L'&& richiede che entrambe le condizioni siano vere
         console.log('FizzBuzz');
     } else if (i % 5 === 0) {
+        //Se la prima condizione non è vera allora prende gli divisori di 5
         console.log('Buzz');
     } else if (i % 3 === 0) {
+        //Se non è divisibile per 5 ma lo è per 3
         console.log('Fizz');
     } else {
+        //Se nessuna delle condizioni precedenti è vera, stampa i numeri
         console.log(i);
     }
 }
