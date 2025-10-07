@@ -15,9 +15,11 @@ Consigli del giorno:
 così come lo faremmo "a mano" 
 */
 
+//Applico il ciclo for 
 for (let i = 1; i < 100; i++) {
 
     if (i % 3 === 0 && i % 5 === 0) {
+        //L'&& richiede che entrambe le condizioni siano vere
         console.log('FizzBuzz');
     } else if (i % 5 === 0) {
         console.log('Buzz');
